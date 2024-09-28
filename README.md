@@ -5,13 +5,13 @@
 
 # 💫 About Me:   
 <div style="display: flex; align-items: flex-start;">
-  <div style="flex: 1;">
+  <div className="col-md-6" style="flex: 1;">
     👋 Hi, I'm Ishan Dissanayake!  <br>
     💻 Backend Developer | 🔧 IoT Enthusiast  <br>
     🛠️ Skilled in C++, C#, Java, PHP, and Node.js  <br>
     🔍 I’m always curious about how things work – whether it’s a gadget or a piece of software.
   </div>
-  <div style="margin-left: 20px;">
+  <div className="col-md-6" style="margin-left: 20px;">
     <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" height="300" />
   </div>
 </div>
