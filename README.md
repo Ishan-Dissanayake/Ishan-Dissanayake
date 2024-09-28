@@ -4,7 +4,8 @@
 
 
 
-# 💫 About Me:![Live Wallpaper]([https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif](https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif))
+# 💫 About Me:   ![Live Wallpaper](https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif)
+
 👋 Hi, I'm Ishan Dissanayake!  <br>💻 Backend Developer | 🔧 IoT Enthusiast  <br>🛠️ Skilled in C++, C#, Java, PHP, and Node.js  <br>🔍 I’m always curious about how things work – whether it’s a gadget or a piece of software.
 
 ![Live Wallpaper](https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif)
