@@ -6,7 +6,7 @@
 # 💫 About Me:   
 <table>
   <tr>
-    <td style="vertical-align: top;">
+    <td style="border: none; width: 100%; ">
       👋 Hi, I'm Ishan Dissanayake!  <br>
       💻 Backend Developer | 🔧 IoT Enthusiast  <br>
       🛠️ Skilled in C++, C#, Java, PHP, and Node.js  <br>
