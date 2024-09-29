@@ -1,8 +1,3 @@
-<div align="center">
-<img src="https://github.com/Ishan-Dissanayake/Ishan-Dissanayake/blob/main/cyberpunk-naruto-rainy-street-moewalls-com-ezgif.com-speed.gif?raw=true" width="500px"  alt="Cyberpunk Naruto GIF">
-</div>
-
-
 
 # 💫 About Me:   
 <table style="border: none; width: 100%;">
@@ -20,6 +15,11 @@
     </td>
   </tr>
 </table>
+<div align="center">
+<img src="https://github.com/Ishan-Dissanayake/Ishan-Dissanayake/blob/main/cyberpunk-naruto-rainy-street-moewalls-com-ezgif.com-speed.gif?raw=true" width="500px"  alt="Cyberpunk Naruto GIF">
+</div>
+
+
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif"  alt="Live Wallpaper" />
