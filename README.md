@@ -14,7 +14,7 @@
     <br>
       🛠️ Skilled in C++, C#, Java, PHP, and Node.js  <br>
   <br>
-    🔍 I’m always curious about how things work – whether it’s a gadget or a piece of software.
+    🔍 I’m always curious about how things work – whether it’s a gadget or &nbsp; a piece of software.
    </h2>
    </div>
 
