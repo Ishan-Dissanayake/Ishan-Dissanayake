@@ -12,10 +12,10 @@
 </div>
   <tr>
     <td style="vertical-align: top; border: none; padding: 0;">
-      💻 Backend Developer | 🔧 IoT Enthusiast  <br>
+     <h3> 💻 Backend Developer | 🔧 IoT Enthusiast  <br>
       🛠️ Skilled in C++, C#, Java, PHP, and Node.js  <br>
       🔍 I’m always curious about how things work – whether it’s a gadget or a piece of software.
-    </td>
+   </h3> </td>
     <td style="text-align: center; border: none; padding: 0;">
       <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="200" height="200" />
     </td>
