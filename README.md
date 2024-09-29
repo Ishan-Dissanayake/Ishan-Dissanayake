@@ -5,7 +5,7 @@
 
 # 💫 About Me:   
 <table style="border: none; width: 100%;">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif"  height="10" alt="GIF Animation" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500"  height="10" alt="GIF Animation" />
 
   <tr>
     <td style="vertical-align: top; border: none; padding: 0;">
