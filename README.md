@@ -9,7 +9,7 @@
 <table style="border: none; width: 100%;">
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif"  alt="Live Wallpaper" />
-</div>
+
   <tr>
     <td style="vertical-align: top; border: none; padding: 0;">
      <h2> 💻 Backend Developer | 🔧 IoT Enthusiast  <br>
@@ -21,7 +21,7 @@
     </td>
   </tr>
 </table>
-
+</div>
 
 
 
