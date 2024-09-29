@@ -1,3 +1,4 @@
+<h1 align="center">👋 Hi, I'm Ishan Dissanayake!</h1>
 <div align="center">
 <img src="https://github.com/Ishan-Dissanayake/Ishan-Dissanayake/blob/main/cyberpunk-naruto-rainy-street-moewalls-com-ezgif.com-speed.gif?raw=true" width="600px"  alt="Cyberpunk Naruto GIF">
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600"  height="10" alt="GIF Animation" />
@@ -11,7 +12,6 @@
 </div>
   <tr>
     <td style="vertical-align: top; border: none; padding: 0;">
-      👋 Hi, I'm Ishan Dissanayake!  <br>
       💻 Backend Developer | 🔧 IoT Enthusiast  <br>
       🛠️ Skilled in C++, C#, Java, PHP, and Node.js  <br>
       🔍 I’m always curious about how things work – whether it’s a gadget or a piece of software.
