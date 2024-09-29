@@ -6,22 +6,14 @@
   
 
 # 💫 About Me:   
-//<table style="border: none; width: 100%;">
-<div align="center">
+<div>
   <img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif"  alt="Live Wallpaper" />
-
-//  <tr>
-//    <td style="vertical-align: top; border: none; padding: 0;">
      <h2> 💻 Backend Developer | 🔧 IoT Enthusiast  <br>
       🛠️ Skilled in C++, C#, Java, PHP, and Node.js  <br>
       🔍 I’m always curious about how things work – whether it’s a gadget<br>      or a piece of software.
-   </h2> </td>
- //   <td style="text-align: center; border: none; padding: 0;">
-      <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="200" height="200" />
-  //  </td>
-//  </tr>
-//</table>
-</div>
+   </h2>
+   <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="200" height="200" />
+   </div>
 
 
 
