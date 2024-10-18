@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hola, I'm ISHAN 😄</h1>
+<h1 align="center">👋 Hola, I'm ISHAN...😄</h1>
 <div align="center">
 <img src="cyberpunk-naruto-rainy-street-moewalls-com-ezgif.com-speed.gif" width="600px" alt="Cyberpunk Naruto GIF">  
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600"  height="10" alt="GIF Animation" />
