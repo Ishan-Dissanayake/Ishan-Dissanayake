@@ -35,14 +35,14 @@
 <img src="https://user-images.githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" width="200" height="200" />
 </div>
 
-# 📊 GitHub Stats:
+# 🍜 GitHub Stats:
 
 ![](https://github-readme-stats.vercel.app/api?username=Ishan-Dissanayake&theme=dark&hide_border=false&include_all_commits=true&count_private=true) <br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Ishan-Dissanayake&theme=dark&hide_border=false)<br/> 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ishan-Dissanayake&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 
-### 🍜 Top Contributed Repo
+### 👺 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Ishan-Dissanayake&limit=5&theme=transparent&combine_all_yearly_contributions=true)
 
 ---
