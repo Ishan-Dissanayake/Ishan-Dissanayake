@@ -1,0 +1,36 @@
+name: Daily Date Update
+
+on:
+  schedule:
+    # 2:00 AM Sri Lanka Time is 8:30 PM UTC (Previous Day)
+    - cron: '30 20 * * *'
+  workflow_dispatch: # Allows manual testing
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Run Update Script
+        run: node update_date.js
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "Ishan Dissanayake"
+          # REPLACE THIS with your actual GitHub login email to get the Green Square!
+          git config --global user.email "YOUR_EMAIL@example.com" 
+          
+          git add README.md
+          # The commit message will show in your history
+          git commit -m "Auto-update: Daily Date Change 🦊" || exit 0
+          git push
