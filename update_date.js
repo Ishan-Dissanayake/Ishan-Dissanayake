@@ -23,15 +23,15 @@ const readmePath = './README.md';
 let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
 // 4. Regex to find the existing block
-// This finds: [anything in between] const replacementRegex = /[\s\S]*?/;
+// (The error happened because this line below was missing)
+const replacementRegex = /[\s\S]*?/;
 
+// 5. Check and Replace
 if (readmeContent.match(replacementRegex)) {
-    // Replace the old block with the new one
     const updatedReadme = readmeContent.replace(replacementRegex, newContent);
     fs.writeFileSync(readmePath, updatedReadme);
     console.log('✅ Date updated successfully!');
 } else {
     console.error('❌ Error: Could not find in README.md');
-    console.error('Please make sure you pasted the starting block into your README first.');
     process.exit(1);
 }
