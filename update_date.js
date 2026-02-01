@@ -14,16 +14,15 @@ const options = {
 };
 const formattedDate = now.toLocaleString('en-US', options);
 
-// 2. Define the exact block to replace (Tags included)
-const newContent = `Last updated on: ${formattedDate}
-`;
+// 2. Define the exact block to replace (MUST include the tags!)
+const newContent = `Last updated on: ${formattedDate}`;
 
 // 3. Read file
 const readmePath = './README.md';
 let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
 // 4. Regex to find the existing block
-// (The error happened because this line below was missing)
+// (This finds the hidden tags you pasted into your README)
 const replacementRegex = /[\s\S]*?/;
 
 // 5. Check and Replace
