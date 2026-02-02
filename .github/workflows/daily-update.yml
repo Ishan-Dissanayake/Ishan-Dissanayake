@@ -3,7 +3,7 @@ name: Daily Date Update
 on:
   schedule:
     # 2:00 AM Sri Lanka Time is 8:30 PM UTC (Previous Day)
-    - cron: '*/5 * * * *'
+    - cron: '30 20 * * *'
   workflow_dispatch: # Allows manual testing
 
 jobs:
