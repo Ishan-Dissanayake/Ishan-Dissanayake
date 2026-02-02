@@ -26,9 +26,9 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config --global user.name "Ishan Dissanayake"
+          git config --global user.name "Ishan-Dissanayake"
           # REPLACE THIS with your actual GitHub login email to get the Green Square!
-          git config --global user.email "YOUR_EMAIL@example.com" 
+          git config --global user.email "ishandissanayaka00@gmail.com" 
           
           git add README.md
           # The commit message will show in your history
