@@ -14,7 +14,7 @@ const options = {
 };
 const formattedDate = now.toLocaleString('en-US', options);
 
-// 2. Define the exact block to replace (MUST include the tags!)
+// 2. Define the exact block to replace (Includes the INVISIBLE TAGS)
 const newContent = `Last updated on: ${formattedDate}`;
 
 // 3. Read file
@@ -22,7 +22,7 @@ const readmePath = './README.md';
 let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
 // 4. Regex to find the existing block
-// (This finds the hidden tags you pasted into your README)
+// (This finds the hidden tags so it deletes the old date correctly!)
 const replacementRegex = /[\s\S]*?/;
 
 // 5. Check and Replace
@@ -31,6 +31,6 @@ if (readmeContent.match(replacementRegex)) {
     fs.writeFileSync(readmePath, updatedReadme);
     console.log('✅ Date updated successfully!');
 } else {
-    console.error('❌ Error: Could not find in README.md');
+    console.error('❌ Error: Tags not found! Did you reset your README?');
     process.exit(1);
 }
