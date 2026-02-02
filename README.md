@@ -1,4 +1,6 @@
-<!-- LAST_UPDATED -->
+<!-- START -->
+Last updated on: Monday, February 2, 2026
+<!-- END -->
 <h1 align="center">🦊...Hola, I'm ISHAN...🍥</h1>
 <div align="center">
 <img src="cyberpunk-naruto-rainy-street-moewalls-com-ezgif.com-speed.gif" width="600px" alt="Cyberpunk Naruto GIF">  
