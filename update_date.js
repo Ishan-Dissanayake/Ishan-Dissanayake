@@ -14,23 +14,21 @@ const options = {
 };
 const formattedDate = now.toLocaleString('en-US', options);
 
-// 2. Define the exact block to replace (Includes the INVISIBLE TAGS)
+// 2. New content (first line only)
 const newContent = `Last updated on: ${formattedDate}`;
 
 // 3. Read file
 const readmePath = './README.md';
 let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
-// 4. Regex to find the existing block
-// (This finds the hidden tags so it deletes the old date correctly!)
-const replacementRegex = /[\s\S]*?/;
+// 4. Replace ONLY the first line
+const replacementRegex = /^Last updated on:.*$/m;
 
-// 5. Check and Replace
 if (readmeContent.match(replacementRegex)) {
     const updatedReadme = readmeContent.replace(replacementRegex, newContent);
     fs.writeFileSync(readmePath, updatedReadme);
     console.log('✅ Date updated successfully!');
 } else {
-    console.error('❌ Error: Tags not found! Did you reset your README?');
+    console.error('❌ Error: First line not found');
     process.exit(1);
 }
