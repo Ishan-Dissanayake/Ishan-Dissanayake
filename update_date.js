@@ -1,12 +1,12 @@
 const fs = require('fs');
 
-// 1. Get current date (Sri Lanka Time)
+// Sri Lanka time
 const now = new Date();
-const options = { 
-    timeZone: 'Asia/Colombo', 
-    weekday: 'long', 
-    year: 'numeric', 
-    month: 'long', 
+const options = {
+    timeZone: 'Asia/Colombo',
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
     day: 'numeric',
     hour: '2-digit',
     minute: '2-digit',
@@ -14,21 +14,21 @@ const options = {
 };
 const formattedDate = now.toLocaleString('en-US', options);
 
-// 2. New content (first line only)
-const newContent = `Last updated on: ${formattedDate}`;
+// New content
+const newContent = `<!-- START -->\nLast updated on: ${formattedDate}\n<!-- END -->`;
 
-// 3. Read file
 const readmePath = './README.md';
-let readmeContent = fs.readFileSync(readmePath, 'utf8');
+const readme = fs.readFileSync(readmePath, 'utf8');
 
-// 4. Replace ONLY the first line
-const replacementRegex = /^Last updated on:.*$/m;
+// Replace only inside tags
+const regex = /<!-- START -->[\s\S]*?<!-- END -->/;
 
-if (readmeContent.match(replacementRegex)) {
-    const updatedReadme = readmeContent.replace(replacementRegex, newContent);
-    fs.writeFileSync(readmePath, updatedReadme);
-    console.log('✅ Date updated successfully!');
-} else {
-    console.error('❌ Error: First line not found');
+if (!regex.test(readme)) {
+    console.error('❌ START / END tags not found');
     process.exit(1);
 }
+
+const updated = readme.replace(regex, newContent);
+fs.writeFileSync(readmePath, updated);
+
+console.log('✅ Date updated successfully!');
